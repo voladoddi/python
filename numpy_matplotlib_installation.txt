@@ -1,0 +1,16 @@
+1) Install Python 2.7 
+2) To install pip, follow the instructions from here - http://docs.python-guide.org/en/latest/starting/install/win/
+
+In brief, go to MS Powershell
+- Test whether typing "python" in the terminal shows you a python prompt (this is indicative of proper python installation and path specification).
+- Skip "ez_setup.py"
+- right click on the link "get-pip.py" and download it to the same directory as your "Python27" folder.
+
+3) Download required Numpy package from here  " http://www.lfd.uci.edu/~gohlke/pythonlibs/  "   and install in the same path as  your Python 2.7 
+- to test whether it has been done properly , open your MS Powershell terminal , type "python". Once you can run python in your terminal, type "import numpy". 
+If you get a newline python prompt (and no error messages), you're good to go.
+
+4) to install MatPlotLib ,
+- download from here - http://matplotlib.org/downloads.html . 
+
+To resolve dependency errors - download "dateutil" , "PyParsing" and "Six" from ---- http://www.lfd.uci.edu/~gohlke/pythonlibs/ 
